@@ -1,10 +1,11 @@
-# Framy - Very simple CSS Framework
+# Framy - 매우 심플한 CSS 프레임워크
 
-Framy is a collection of basic components, you will need in every web project to develop responsive & modern interfaces and websites.
+Framy는 기본적인 구성 요소들의 모음으로, 모든 웹 프로젝트에서 반응형과
+현대적인 인터페이스로 웹 사이트를 개발 할 수 있습니다.
 
-* __Website__ http://www.framycss.org
-* __Documentation__ http://www.framycss.org/#/docs
-* __Demo__ http://demo.framycss.org
+* __공식 웹사이트__ http://www.framycss.org
+* __문서__ http://www.framycss.org/#/docs
+* __미리보기__ http://demo.framycss.org
 
 [![](https://data.jsdelivr.com/v1/package/npm/framy-css/badge?style=rounded)](https://www.jsdelivr.com/package/npm/framy-css)
 [![npm](https://img.shields.io/npm/dt/framy-css.svg)](https://www.npmjs.com/package/framy-css)
@@ -12,11 +13,11 @@ Framy is a collection of basic components, you will need in every web project to
 [![Bower](https://img.shields.io/bower/v/framy-css.svg)]()
 [![npm](https://img.shields.io/npm/l/framy-css.svg)]()
 
-## How to use
+## 사용 방법
 
 ### CDN
 
-Just include the latest version like this:
+최신 버전을 유지하면서 사용:
 ```
 // CSS
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/framy-css@latest/dist/css/framy.min.css">
@@ -25,54 +26,54 @@ Just include the latest version like this:
 <script src="//cdn.jsdelivr.net/npm/framy-css@latest/dist/js/framy.js"></script>
 ```
 
-Or just the CSS flexbox grid:
+CSS flexbox 그리드만 사용:
 ```
 // Just the CSS flexbox grid
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/framy-css@latest/dist/css/framy.grid.min.css">
 ```
 
-Or replace _latest_ with a specific version (ex. grid system):
+또는 _latest_ 부분에 특정 버전을 삽입하여 사용:
 ```
 // Just the CSS flexbox grid
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/framy-css@2.8.5/dist/css/framy.grid.min.css">
 ```
 
-### Install with npm
+### npm을 통한 설치
 ```
 npm install framy-css
 ```
-Then include CSS and JS files like this:
+CSS와 스크립트를 아래와 같이 삽입:
 ```
 <link rel="stylesheet" href="node_modules/framy-css/dist/css/framy.min.css">
 
 <script src="node_modules/framy-css/dist/js/framy.js"></script>
 ```
 
-### Install with Bower
+### Bower를 통한 설치
 ```
 bower install framy-css
 ```
-Then include CSS and JS files like this:
+CSS와 스크립트를 아래와 같이 삽입:
 ```
 <link rel="stylesheet" href="bower_components/framy-css/dist/css/framy.min.css">
 
 <script src="bower_components/framy-css/dist/js/framy.js"></script>
 ```
 
-## Development
-You'll need:
+## 개발
+필요한 항목:
 * [git](https://git-scm.com/)
 * [npm](https://www.npmjs.com/get-npm)
 
-First clone this repository using [git](https://git-scm.com/):
+Repository를 Clone 합니다. [git](https://git-scm.com/):
 ```
 git clone https://github.com/aaroniker/framy-css.git
 ```
-Now you'll have to install all needed [npm](https://www.npmjs.com/get-npm) dependencies:
+이제 [npm](https://www.npmjs.com/get-npm)을 설치해 주어야 합니다.
 ```
 npm install
 ```
-After that you could use the following commands:
+아래 명령어를 따라서 실행할 수 있습니다.
 ```
 // Load & compile all icons to an icon font from ./src/icons/*.svg to ./dist/fonts/*
 npm run icons
@@ -87,7 +88,7 @@ npm run css-grid
 npm run watch-css
 ```
 
-## Resources
+## 리소스
 
-* Interface Font https://github.com/rsms/inter
-* Ikons http://ikons.piotrkwiatkowski.co.uk
+* 인터페이스 폰트: https://github.com/rsms/inter
+* Ikons(내장 아이콘) http://ikons.piotrkwiatkowski.co.uk
